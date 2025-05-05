@@ -7,6 +7,9 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 20px;
+  transition: background-color 0.1s, color 0.3s;
+  color: #000000;
+
 }
 
 header {
@@ -117,4 +120,15 @@ button:hover {
   color: gray; /* Optional: Change the text color for completed todos */
 }
 
+/* Dark mode style */
+#dark-mode{
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+}
 

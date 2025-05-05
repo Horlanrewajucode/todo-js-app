@@ -9,8 +9,6 @@ import { sayHi as hi, sayBye as bye, person as angel } from "./src/say.js";
 import * as say from "./src/say.js";
 // default import
 // import sum from "./sum.js";
-
-//
 let todoForm = document.querySelector("#todoForm");
 let todoList = document.querySelector("#todoList");
 
